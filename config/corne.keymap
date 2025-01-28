@@ -181,7 +181,7 @@
    &none   &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &kp LC(Y)   &kp LC(Y) &kp LC(V)  &kp LC(C)     &kp LC(X)   &kp LC(Z)    &none
    &none &kp LWIN &kp LALT &kp LCTRL &kp LSHFT &none   &none &kp LSHFT  &kp LCTRL     &kp LALT   &kp LWIN &none
    &none   &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &kp LC(Y)   &kp LC(Y) &kp LC(V)  &kp LC(C)     &kp LC(X)   &kp LC(Z)    &none
-                  &kp MCLK &kp LCLK &kp RCLK   &kp RCLK &kp LCLK &kp MCLK
+                  &mkp MCLK &mkp LCLK &mkp RCLK   &mkp RCLK &mkp LCLK &mkp MCLK
                         >;
                 };
 
@@ -207,9 +207,9 @@
 //                    | GUI |     | SPC |   | ENTER |     | ALT |
                         bindings = <
    &none   &td_reset  &td_tap  &td_extra  &td_base  &none    &kp LC(Y) &kp LC(V)  &kp LC(C)     &kp LC(X)   &kp LC(Z)  &none
-   &none &kp LWIN &kp LALT &kp LCTRL &kp LSHFT &none   &none  &kp MOVE_LEFT  &kp MOVE_DOWN     &kp MOVE_UP   &kp MOVE_RIGHT  &none
-   &none   &td_boot &kp RALT &td_sym &td_mouse &none   &none  &kp SCRL_LEFT  &kp SCRL_DOWN     &kp SCRL_UP   &kp SCRL_RIGHT  &none
-                  &none &none &none   &kp RCLK &kp LCLK &kp MCLK
+   &none &kp LWIN &kp LALT &kp LCTRL &kp LSHFT &none   &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN     &mmv MOVE_UP   &mmv MOVE_RIGHT  &none
+   &none   &td_boot &kp RALT &td_sym &td_mouse &none   &none  &msc SCRL_LEFT  &msc SCRL_DOWN     &msc SCRL_UP   &msc SCRL_RIGHT  &none
+                  &none &none &none   &mkp RCLK &mkp LCLK &mkp MCLK
                         >;
                 };
 
@@ -234,10 +234,10 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENTER |     | ALT |
                         bindings = <
-   &none   &kp LBKT  &kp 7  &kp 8  &kp 9  &kp RBKT     &none  &td_base &td_extra &td_tap &td_reset  &none
-   &none &kp SEMI &kp 4 &kp 5 &kp 6 &kp EQUAL   &none  &kp LSHFT  &kp LCTRL     &kp LALT   &kp LWIN  &none
-   &none   &kp GRAVE &kp 1 &kp 2 &kp 3 &kp BSLH   &none  &td_num  &td_nav     &RALT   &td_boot  &none
-                  &kp DOT &kp 0 &kp MINUS   &none &none &none
+   &none   &kp LBKT  &kp N7  &kp N8  &kp N9  &kp RBKT     &none  &td_base &td_extra &td_tap &td_reset  &none
+   &none &kp SEMI &kp N4 &kp N5 &kp N6 &kp EQUAL   &none  &kp LSHFT  &kp LCTRL     &kp LALT   &kp LWIN  &none
+   &none   &kp GRAVE &kp N1 &kp N2 &kp N3 &kp BSLH   &none  &td_num  &td_nav     &RALT   &td_boot  &none
+                  &kp DOT &kp N0 &kp MINUS   &none &none &none
                         >;
                 };
 
@@ -276,8 +276,8 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENTER |     | ALT |
                         bindings = <
-   &tog GAMING2   &kp LALT  &kp Q &kp W &kp E &kp R     &kp 1  &kp 2  &kp 3  &kp 4  &kp 5  &kp PG_UP
-   &kp J &kp LSHFT &kp A &kp S &kp D &kp F              &kp 6  &kp 7  &kp 8  &kp 9  &kp 0  &kp PG_DOWN
+   &tog GAMING2   &kp LALT  &kp Q &kp W &kp E &kp R     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp PG_UP
+   &kp J &kp LSHFT &kp A &kp S &kp D &kp F              &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp PG_DOWN
    &kp M &kp LCTRL &kp Z &kp X &kp C &kp V              &kp MINUS  &kp COMMA  &kp DOT  &kp SEMI  &kp FSLH  &kp BSLH
                 &kp ESC  &kp SPC  &kp TAB    &kp ENTER &kp RALT &td_base
                         >;
