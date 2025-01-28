@@ -137,7 +137,7 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &tdg   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &none
+   &td_gm   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &none
    &none  &mt LWIN A &mt LALT S &mt LCTRL D &mt LSHFT F &kp  G   &kp H &mt LSHFT J  &mt LCTRL K     &mt LALT L   &mt LWIN SQT &none
    &none &lt BUTTON Z &mt RALT X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &mt RALT DOT &lt BUTTON FSLH &none
                   &lt MEDIA ESC &lt NAV SPC &lt MOUSE TAB   &lt SYM ENT &lt NUM BSPC &lt FUN DEL
@@ -150,7 +150,7 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &tdg   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &none
+   &td_gm   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &none
    &none  &mt LWIN A &mt LALT R &mt LCTRL S &mt LSHFT T &kp  G   &kp M &mt LSHFT N  &mt LCTRL E     &mt LALT I   &mt LWIN O &none
    &none &lt BUTTON Z &mt RALT X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &mt RALT DOT &lt BUTTON FSLH &none
                   &lt MEDIA ESC &lt NAV SPC &lt MOUSE TAB   &lt SYM ENT &lt NUM BSPC &lt FUN DEL
