@@ -195,7 +195,7 @@
                         bindings = <
    &none   &td_reset  &td_tap  &td_extra  &td_base  &none    &kp LC(Y) &kp LC(V)  &kp LC(C)     &kp LC(X)   &kp LC(Z)  &none
    &none &kp LWIN &kp LALT &kp LCTRL &kp LSHFT &none   &caps_word  &kp LEFT  &kp DOWN     &kp UP   &kp RIGHT  &none
-   &none   &td_boot &kp RALT &td_num &td_nav &none   &INS  &kp HOME  &kp PG_DOWN     &kp PG_UP   &kp END  &none
+   &none   &td_boot &kp RALT &td_num &td_nav &none   &kp INS  &kp HOME  &kp PG_DOWN     &kp PG_UP   &kp END  &none
                   &none &none &none   &kp ENTER &kp BSPC &kp DEL
                         >;
                 };
