@@ -251,7 +251,7 @@
                         bindings = <
    &none   &kp LBRC  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RBRC     &none  &td_base &td_extra &td_tap &td_reset  &none
    &none &kp COLON &kp DOLLAR &kp PRCNT &kp CARET &kp PLUS   &none  &kp LSHFT  &kp LCTRL     &kp LALT   &kp LWIN  &none
-   &none   &kp TILDE &kp EXCL &kp AT &kp HASH &kp PIPE   &none  &td_sym  &td_mouse     &RALT   &td_boot  &none
+   &none   &kp TILDE &kp EXCL &kp AT &kp HASH &kp PIPE   &none  &td_sym  &td_mouse     &kp RALT   &td_boot  &none
                 &kp LPAR  &kp RPAR  &kp UNDER    &none &none &none
                         >;
                 };
@@ -265,7 +265,7 @@
                         bindings = <
    &none   &kp F12  &kp F7  &kp F8  &kp F9  &kp RBRC     &none  &td_base &td_extra &td_tap &td_reset  &none
    &none &kp F11 &kp F4 &kp F5 &kp F6 &kp PLUS   &none  &kp LSHFT  &kp LCTRL     &kp LALT   &kp LWIN  &none
-   &none   &kp F10 &kp F1 &kp F2 &kp F3 &kp PIPE   &none  &td_fun  &td_media     &RALT   &td_boot  &none
+   &none   &kp F10 &kp F1 &kp F2 &kp F3 &kp PIPE   &none  &td_fun  &td_media     &kp RALT   &td_boot  &none
                 &kp K_APP  &kp SPC  &kp TAB    &none &none &none
                         >;
                 };
