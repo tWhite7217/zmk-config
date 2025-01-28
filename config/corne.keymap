@@ -28,7 +28,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <&to GAMING>;
+            bindings = <&none>, <&to GAMING>;
         };
 
         
@@ -36,7 +36,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <&to GAMING2>;
+            bindings = <&none>, <&to GAMING2>;
         };
 
         
@@ -44,7 +44,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <&sys_reset>;
+            bindings = <&none>, <&sys_reset>;
         };
 
         
@@ -52,7 +52,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <>, <&bootloader>;
+            bindings = <&none>, <&none>, <&bootloader>;
         };
 
         
@@ -60,7 +60,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <&to TAP>;
+            bindings = <&none>, <&to TAP>;
         };
 
         
@@ -68,7 +68,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <&to EXTRA>;
+            bindings = <&none>, <&to EXTRA>;
         };
 
         
@@ -76,7 +76,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <&to BASE>;
+            bindings = <&none>, <&to BASE>;
         };
 
         
@@ -84,7 +84,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <&to NAV>;
+            bindings = <&none>, <&to NAV>;
         };
 
         
@@ -92,7 +92,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <&to NUM>;
+            bindings = <&none>, <&to NUM>;
         };
 
         
@@ -100,7 +100,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <&to SYM>;
+            bindings = <&none>, <&to SYM>;
         };
 
         
@@ -108,7 +108,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <&to MOUSE>;
+            bindings = <&none>, <&to MOUSE>;
         };
 
         
@@ -116,7 +116,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <&to FUN>;
+            bindings = <&none>, <&to FUN>;
         };
 
         
@@ -124,7 +124,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <>, <&to MEDIA>;
+            bindings = <&none>, <&to MEDIA>;
         };
     };
 
