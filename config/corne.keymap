@@ -24,11 +24,11 @@
 
 &mt {
     flavor = "balanced"
-}
+};
 
 &lt {
     flavor = "balanced"
-}
+};
 
 / {
     behaviors {
