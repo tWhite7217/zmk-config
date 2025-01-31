@@ -22,6 +22,14 @@
 #define GAMING 10
 #define GAMING2 11
 
+&mt {
+    flavor = "balanced"
+}
+
+&lt {
+    flavor = "balanced"
+}
+
 / {
     behaviors {
         td_gm: tap_dance_gaming {
