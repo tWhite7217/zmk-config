@@ -134,6 +134,34 @@
             tapping-term-ms = <200>;
             bindings = <&none>, <&to MEDIA>;
         };
+
+        td_bt_0: tap_dance_select_bluetooth_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bt BT_SEL 0>;
+        };
+
+        td_bt_1: tap_dance_select_bluetooth_1 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bt BT_SEL 1>;
+        };
+
+        td_bt_2: tap_dance_select_bluetooth_1 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bt BT_SEL 2>;
+        };
+
+        td_bt_clr: tap_dance_clear_current_bluetooth {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&none>, <&bt BT_CLR>;
+        };
     };
 
         keymap {
@@ -146,9 +174,9 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENTER | RSE  | ALT |
                         bindings = <
-   &td_gm   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &none
-   &none  &mt LWIN A &mt LALT S &mt LCTRL D &mt LSHFT F &kp  G   &kp H &mt LSHFT J  &mt LCTRL K     &mt LALT L   &mt LWIN SQT &none
-   &none &lt BUTTON Z &mt RALT X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &mt RALT DOT &lt BUTTON FSLH &none
+   &td_gm   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &td_bt_0
+   &none  &mt LWIN A &mt LALT S &mt LCTRL D &mt LSHFT F &kp  G   &kp H &mt LSHFT J  &mt LCTRL K     &mt LALT L   &mt LWIN SQT &td_bt_1
+   &td_bt_clr &lt BUTTON Z &mt RALT X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &mt RALT DOT &lt BUTTON FSLH &td_bt_2
                   &lt MEDIA ESC &lt NAV SPC &lt MOUSE TAB   &lt SYM ENTER &lt NUM BSPC &lt FUN DEL
                         >;
                 };
@@ -159,9 +187,9 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENTER |     | ALT |
                         bindings = <
-   &td_gm   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &none
-   &none  &mt LWIN A &mt LALT R &mt LCTRL S &mt LSHFT T &kp  G   &kp M &mt LSHFT N  &mt LCTRL E     &mt LALT I   &mt LWIN O &none
-   &none &lt BUTTON Z &mt RALT X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &mt RALT DOT &lt BUTTON FSLH &none
+   &td_gm   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &td_bt_0
+   &none  &mt LWIN A &mt LALT R &mt LCTRL S &mt LSHFT T &kp  G   &kp M &mt LSHFT N  &mt LCTRL E     &mt LALT I   &mt LWIN O &td_bt_1
+   &td_bt_clr &lt BUTTON Z &mt RALT X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &mt RALT DOT &lt BUTTON FSLH &td_bt_2
                   &lt MEDIA ESC &lt NAV SPC &lt MOUSE TAB   &lt SYM ENTER &lt NUM BSPC &lt FUN DEL
                         >;
                 };
